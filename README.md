@@ -1,4 +1,5 @@
 # Project 1 (Classification): Airline Passenger Satisfaction
+## Overview
 The data for this project was already divided into testing and training. However, in order to gain a better overview, they were combined. The table below provides an insight into the features available. Based on those features the passenger satisfaction was predicted which was either "satisfied" or "neutral or dissatisfied".
 
 The piplot provides a very simple overview of the the percentage of satisfied and dissatisfied passanger. It becomes clear that the majority of the custommers is neutral or dissatisfied. In the initial phase, a random forest classifier and a logistic regression model will be trained. Following this, a feature selection process will be conducted, enabling the airline to identify and prioritize key features. This strategic approach allows the airline to focus on enhancing specific aspects of its service to drive passenger satisfaction.
@@ -132,14 +133,6 @@ The piplot provides a very simple overview of the the percentage of satisfied an
 </p>
 
 
-
-
-
-
-
-
-
-
 ## Random Forest Classifier
 </p>  
 <p align="center">
@@ -151,3 +144,5 @@ The piplot provides a very simple overview of the the percentage of satisfied an
 <p align="center">
   <img src="./figures/confusion_matrix_lr.png"  width="50%" height = "50%">
 </p>
+
+## Model Comparison 
