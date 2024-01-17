@@ -146,3 +146,7 @@ The piplot provides a very simple overview of the the percentage of satisfied an
 </p>
 
 ## Model Comparison 
+</p>  
+<p align="center">
+  <img src="./figures/ROC.png"  width="50%" height = "50%">
+</p>
