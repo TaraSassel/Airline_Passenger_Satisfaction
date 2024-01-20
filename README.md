@@ -142,13 +142,14 @@ Two models were trained in parallel and evaluated against each other, a random f
   <img src="./figures/Simplified_tree.png"  width="50%" height = "50%">
 </p>
 
-In a first instance a random forest classifier was trained 
+In a first instance a random forest classifier was trained the above figure represents a simplified decison tree from the random forest. 
 
-</p>  
+
 <p align="center">
   <img src="./figures/confusion_matrix_rf1.png"  width="50%" height = "50%">
 </p>
 
+From the confusion matrix the recall, precision and specificity were calculated which were 0.94, 0.97 and 0.98, respectively. Please note that the dissatisfied passengers were taken as negative and satisfied clients were taken as positives. A high value in recall indicated that the model overall captured most positive cases, the precision was high as well indicating that the number of false positives was low. A very high value in specificity indicated that the model was very effective in capturing dissatisfied passengers which was very important for this project. Therefore, it can be said that the model performed well overall.
 
 
 ### Logistic Regression 
