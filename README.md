@@ -137,6 +137,13 @@ Two models were trained in parallel and evaluated against each other, a random f
 
 ### Random Forest Classifier
 
+
+<p align="center">
+  <img src="./figures/Simplified_tree.png"  width="50%" height = "50%">
+</p>
+
+In a first instance a random forest classifier was trained 
+
 </p>  
 <p align="center">
   <img src="./figures/confusion_matrix_rf1.png"  width="50%" height = "50%">
@@ -145,13 +152,18 @@ Two models were trained in parallel and evaluated against each other, a random f
 
 
 ### Logistic Regression 
-</p>  
+ 
 <p align="center">
   <img src="./figures/confusion_matrix_lr.png"  width="50%" height = "50%">
 </p>
 
-### Model Comparison 
-</p>  
+### Model Evaluation
+
 <p align="center">
   <img src="./figures/ROC.png"  width="50%" height = "50%">
+</p>
+
+## Conclusion 
+<p align="center">
+  <img src="./figures/feature_importance.png"  width="50%" height = "50%">
 </p>
