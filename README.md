@@ -151,6 +151,7 @@ In a first instance a random forest classifier was trained the above figure repr
 
 From the confusion matrix the recall, precision and specificity were calculated which were 0.94, 0.97 and 0.98, respectively. Please note that the dissatisfied passengers were taken as negative and satisfied clients were taken as positives. A high value in recall indicated that the model overall captured most positive cases, the precision was high as well indicating that the number of false positives was low. A very high value in specificity indicated that the model was very effective in capturing dissatisfied passengers which was very important for this project. Therefore, it can be said that the model performed well overall.
 
+Furthremore, a random forest classifier was trained with selected features. Please refer to the notebook for more details.
 
 ### Logistic Regression 
  
@@ -158,13 +159,18 @@ From the confusion matrix the recall, precision and specificity were calculated 
   <img src="./figures/confusion_matrix_lr.png"  width="50%" height = "50%">
 </p>
 
+In a second instance a logistic regression model was trained and the confusion matrix is shown above. For this model the 
+
 ### Model Evaluation
+The figure below shows an ROC graph of the random forest and logistic regression model. It becomes clear that the random forest classifier outperforms logistic regression model. 
 
 <p align="center">
   <img src="./figures/ROC.png"  width="50%" height = "50%">
 </p>
 
-## Conclusion 
+## Conclusions/Suggestions 
+From the model evaluation it was found that the random forest model performed best. Therefore, the feature importance was identified from this model. The figure below highlights the 10 most important features when identifying passenger satisfaction. Given that a majority of passengers expressed dissatisfaction, the recommendation for the airline is to prioritize enhancements in the following areas: Online boarding, inflight wifi service, inflight entertainment, seat comfort, ease of online booking, and leg room service. These specific features are directly managed by the airline and are essential features shaping overall passenger contentment.
+
 <p align="center">
   <img src="./figures/feature_importance.png"  width="50%" height = "50%">
 </p>
