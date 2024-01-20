@@ -132,20 +132,25 @@ The pie-plot provides a very simple overview of the the percentage of satisfied 
   <img src="./figures/satisfaction_pieplot.png"  width="50%" height = "50%">
 </p>
 
+## Model Training
+Two models were trained in parallel and evaluated against each other, a random forest classifier and a logistic regression model. These models were selected as the classification task was binary i.e. satisfied or dissatisfied. However, before training the data several steps had to be undertaken which were encoding the features that were non numerical using LabelEncoder and scaling the data using StandardScaler. After completing these steps the models were trained.
 
-## Random Forest Classifier
+### Random Forest Classifier
+
 </p>  
 <p align="center">
   <img src="./figures/confusion_matrix_rf1.png"  width="50%" height = "50%">
 </p>
 
-## Logistic Regression 
+
+
+### Logistic Regression 
 </p>  
 <p align="center">
   <img src="./figures/confusion_matrix_lr.png"  width="50%" height = "50%">
 </p>
 
-## Model Comparison 
+### Model Comparison 
 </p>  
 <p align="center">
   <img src="./figures/ROC.png"  width="50%" height = "50%">
